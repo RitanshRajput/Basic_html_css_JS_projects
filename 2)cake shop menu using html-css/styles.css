@@ -1,0 +1,77 @@
+body{
+    background-image:url(https://www.foodsafetynews.com/files/2021/05/dreamstime_chocolate-cocoa-confectionery-825x468.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    padding: 20px;
+  }
+ h1{
+    font-size: 50px ;
+    margin-top: 0 ;
+    margin-bottom: 15px ;
+ }
+  h2{
+    font-size: 30px ;
+  }
+  .est{
+    font-style: italic ;
+  }
+ h1, h2, p{
+    text-align: center ;
+ }
+ .Menu{
+    width: 80% ;
+    background-color:rosybrown;
+    margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+ }
+ hr{
+    height: 3px ;
+    background-color:darkmagenta ;
+    border-color: darkmagenta ;
+ }
+ .bottom-line{
+    margin-top: 25px ;
+ }
+ h1, h2{
+    font-family: Impact , serif ;
+ }
+ .item p {
+  display: inline-block ;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+ }
+ .flavour{
+    text-align: left ;
+    width: 75% ;
+ }
+ .milkshake{
+    text-align: left ;
+    width: 75% ;
+ }
+ .price{
+    text-align: right ;
+    width: 25% ;
+ }
+footer{
+    font-size: 14px ;
+}
+.address{
+    margin-bottom: 5px ;
+}
+a{
+    color: black ;
+}
+ a:visited{
+    color: black ;
+ }
+ a:hover{
+    color: brown ;
+ }
+ a:active{
+    color: brown ;
+ }

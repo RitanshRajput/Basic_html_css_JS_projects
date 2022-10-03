@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>My First Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <p>Please fill out this form for further process</p>
+        <form action="https://register-demo/account.org">
+          <fieldset>
+            <label >Enter Your First Name:<span class="required">*</span> <input type="text" name="first-name" required /></label>
+            <label >Enter Your Last Name:<span class="required">*</span> <input type="text" name="last-name" required /></label>
+            <label >Enter Your Email:<span class="required">*</span> <input type="email" name="email" required /></label>
+            <label >Create a New Password:<span class="required">*</span> <input type="password" name="password" pattern="[a-z0-9]{8,}" required /></label>
+          </fieldset>
+          <fieldset>
+            <label><input type="radio" name="nation" class="inline" />Indian</label>
+            <label><input type="radio" name="nation" class="inline" />Non-Indian</label>
+            <label><input type="checkbox" name="terms" class="inline" required />I accept all the <a href="https://www.ritskaserver.com">Terms and Condition<span class="required">*</span></a> </label>
+          </fieldset>
+          <fieldset>
+            <label >Upload a File:<span class="required">*</span> <input type="file" name="file" required  /></label>
+            <label >Input your age(years): <input type="number" name="age" min="13" max="99"  /></label>
+            <label >How did you hear about me? 
+               <select name="options">
+                   <option value="">(Select one)</option>
+                   <option value="1">Friend</option>
+                   <option value="2">Family</option>
+                   <option value="3">Adversitement</option>
+                   <option value="4">Website</option>
+               </select>
+            </label>
+            <label>Tell us about you:
+                <textarea name="about-you" rows="3" cols="30" placeholder="I like to watch anime..."></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Sign up" />
+        </form>
+    </body>
+</html>
